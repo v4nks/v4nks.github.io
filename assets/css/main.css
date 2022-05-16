@@ -117,7 +117,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Poppin", Helvetica, sans-serif;
+		font-family: "Poppins", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
@@ -270,7 +270,7 @@ input, select, textarea {
 		background: rgba(144, 144, 144, 0.075);
 		border-radius: 4px;
 		border: solid 1px #c9c9c9;
-		font-family: "Poppin", monospace;
+		font-family: "Poppins", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -278,7 +278,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Poppin", monospace;
+		font-family: "Poppins", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -1820,7 +1820,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Poppin';
+			font-family: 'Poppins';
 			font-weight: 400;
 		}
 
@@ -2455,7 +2455,6 @@ input, select, textarea {
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3.5em;
-		letter-spacing: 0.35em;
 		line-height: 3.45em;
 		overflow: hidden;
 		padding: 0 1.25em 0 1.6em;
@@ -2470,7 +2469,7 @@ input, select, textarea {
 		display: none;
 	}
 	.type{
-		margin: 30px;
+		margin: 30px 0;
 		margin-top: 110px;
 		display: flex;
 		justify-content: center;
@@ -2478,6 +2477,8 @@ input, select, textarea {
 	.type button{
 		margin: 0 5px;
 		border: none !important;
+		font-weight: 400 !important	;
+		font-family: "Poppins" !important;
 	}
 
 	.type .active {
